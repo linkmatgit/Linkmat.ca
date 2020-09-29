@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9fb92b-3bf5-499c-9084-d93a52b18c49" name="Default Changelist" comment="Initialisation du projet">
-      <change afterPath="$PROJECT_DIR$/src/Http/Admin/Controller/Dashboard/PageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Http/Controller/PageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bloglink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bloglink.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="5f9fb92b-3bf5-499c-9084-d93a52b18c49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/pages/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/assets.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/assets.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/cache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/webpack_encore.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/webpack_encore.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Controller/PageController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +200,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601247364895</updated>
-      <workItem from="1601247365956" duration="8941000" />
+      <workItem from="1601247365956" duration="9777000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation du projet">
       <created>1601249238729</created>
@@ -232,17 +223,27 @@
       <option name="project" value="LOCAL" />
       <updated>1601251671533</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Preparation de l'entity Post, Changement pour me cache.yaml pour un Array cache&#10;&#10;feat: Changement Entity pour Domain &#10;feat: Ajout du PageController.php /Admin">
+      <created>1601338212023</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601338212023</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="feat: Installation de WebpackEncore" />
     <MESSAGE value="Initialisation du projet" />
     <MESSAGE value="feat: Installation de PhpUnit/ PhpStan avec fichier de configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Installation de PhpUnit/ PhpStan avec fichier de configuration" />
+    <MESSAGE value="Preparation de l'entity Post, Changement pour me cache.yaml pour un Array cache&#10;&#10;feat: Changement Entity pour Domain &#10;feat: Ajout du PageController.php /Admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparation de l'entity Post, Changement pour me cache.yaml pour un Array cache&#10;&#10;feat: Changement Entity pour Domain &#10;feat: Ajout du PageController.php /Admin" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="174" key="#Test_Frameworks" timestamp="1601251566280">
@@ -253,10 +254,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="642" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601248639543" />
-    <state x="523" y="27" key="CommitChangelistDialog2" timestamp="1601251671085">
+    <state x="523" y="27" key="CommitChangelistDialog2" timestamp="1601338211353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="523" y="27" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601251671085" />
+    <state x="523" y="27" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601338211353" />
     <state x="679" y="228" key="NewPhpClassDialog" timestamp="1601334208663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -265,10 +266,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="764" y="439" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601333692867" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1601251675741">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1601338228363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601251675741" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601338228363" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601250671772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
