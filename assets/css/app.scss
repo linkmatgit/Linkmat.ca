@@ -1,0 +1,16 @@
+// Variables
+//===================
+:root {
+    --color: #fff;
+    --contrast: #fff;
+    --background: #fff;
+    --space: 8px;
+    --shadow: #d8e1e8;
+    --border: #d5e3ec;
+    --border-light: #e6eff4;
+}
+
+body {
+    background: var(--background);
+    font-size: 19px;
+}

@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5f9fb92b-3bf5-499c-9084-d93a52b18c49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/pages/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Http/Controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Http/Controller/PageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,6 +204,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Linkmat\bloglink\public\assets" />
       <recent name="C:\Users\Linkmat\bloglink\src\Domain\Blog" />
       <recent name="C:\Users\Linkmat\bloglink\src\Http\Admin\Firewall" />
     </key>
@@ -200,7 +223,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601247364895</updated>
-      <workItem from="1601247365956" duration="9777000" />
+      <workItem from="1601247365956" duration="11064000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation du projet">
       <created>1601249238729</created>
@@ -230,11 +253,29 @@
       <option name="project" value="LOCAL" />
       <updated>1601338212023</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Installation des page Twig">
+      <created>1601338966271</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601338966271</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -243,7 +284,8 @@
     <MESSAGE value="Initialisation du projet" />
     <MESSAGE value="feat: Installation de PhpUnit/ PhpStan avec fichier de configuration" />
     <MESSAGE value="Preparation de l'entity Post, Changement pour me cache.yaml pour un Array cache&#10;&#10;feat: Changement Entity pour Domain &#10;feat: Ajout du PageController.php /Admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparation de l'entity Post, Changement pour me cache.yaml pour un Array cache&#10;&#10;feat: Changement Entity pour Domain &#10;feat: Ajout du PageController.php /Admin" />
+    <MESSAGE value="Installation des page Twig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Installation des page Twig" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="174" key="#Test_Frameworks" timestamp="1601251566280">
@@ -254,10 +296,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="642" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601248639543" />
-    <state x="523" y="27" key="CommitChangelistDialog2" timestamp="1601338211353">
+    <state x="523" y="0" key="CommitChangelistDialog2" timestamp="1601338965810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="523" y="27" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601338211353" />
+    <state x="523" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601338965810" />
     <state x="679" y="228" key="NewPhpClassDialog" timestamp="1601334208663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -266,13 +308,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="764" y="439" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601333692867" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1601338228363">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1601338969107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601338228363" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601250671772">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601338969107" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601339552369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601250671772" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601339552369" />
   </component>
 </project>
