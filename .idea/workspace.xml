@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9fb92b-3bf5-499c-9084-d93a52b18c49" name="Default Changelist" comment="" />
+    <list default="true" id="5f9fb92b-3bf5-499c-9084-d93a52b18c49" name="Default Changelist" comment="Initialisation du projet">
+      <change afterPath="$PROJECT_DIR$/src/Http/Admin/Controller/Dashboard/PageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Http/Controller/PageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bloglink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bloglink.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/assets.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/assets.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/cache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/webpack_encore.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/webpack_encore.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +23,9 @@
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -115,18 +131,75 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/yosymfony/resource-watcher" />
+      <path value="$PROJECT_DIR$/vendor/react/event-loop" />
+      <path value="$PROJECT_DIR$/vendor/react/stream" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/clue/stdio-react" />
+      <path value="$PROJECT_DIR$/vendor/clue/utf8-react" />
+      <path value="$PROJECT_DIR$/vendor/clue/term-react" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/evenement/evenement" />
+      <path value="$PROJECT_DIR$/vendor/jolicode/jolinotif" />
+      <path value="$PROJECT_DIR$/vendor/spatie/phpunit-watcher" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan-phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan-mockery" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan-doctrine" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan-symfony" />
     </include_path>
   </component>
   <component name="ProjectId" id="1i78eO8jXl3HbCnQwDFQj46EjmL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Linkmat\bloglink\src\Domain\Blog" />
+      <recent name="C:\Users\Linkmat\bloglink\src\Http\Admin\Firewall" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -136,17 +209,69 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601247364895</updated>
-      <workItem from="1601247365956" duration="1539000" />
+      <workItem from="1601247365956" duration="8941000" />
     </task>
+    <task id="LOCAL-00001" summary="Initialisation du projet">
+      <created>1601249238729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601249238729</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: Installation de WebpackEncore">
+      <created>1601250118322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601250118322</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: Installation de PhpUnit/ PhpStan avec fichier de configuration">
+      <created>1601251671533</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601251671533</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Installation de WebpackEncore" />
+    <MESSAGE value="Initialisation du projet" />
+    <MESSAGE value="feat: Installation de PhpUnit/ PhpStan avec fichier de configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Installation de PhpUnit/ PhpStan avec fichier de configuration" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="540" y="174" key="#Test_Frameworks" timestamp="1601251566280">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="174" key="#Test_Frameworks/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601251566280" />
     <state x="642" y="309" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601248639543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="642" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601248639543" />
+    <state x="523" y="27" key="CommitChangelistDialog2" timestamp="1601251671085">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="523" y="27" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601251671085" />
+    <state x="679" y="228" key="NewPhpClassDialog" timestamp="1601334208663">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="228" key="NewPhpClassDialog/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601334208663" />
+    <state x="764" y="439" key="NewPhpFileDialog" timestamp="1601333692867">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="764" y="439" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601333692867" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1601251675741">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601251675741" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601250671772">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601250671772" />
   </component>
 </project>
