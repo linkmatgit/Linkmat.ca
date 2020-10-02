@@ -20,20 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f9fb92b-3bf5-499c-9084-d93a52b18c49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/modules/nav.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpstan.neon" beforeDir="false" afterPath="$PROJECT_DIR$/phpstan.neon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -223,7 +224,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601247364895</updated>
-      <workItem from="1601247365956" duration="11064000" />
+      <workItem from="1601247365956" duration="12540000" />
+      <workItem from="1601417802910" duration="3678000" />
+      <workItem from="1601592401482" duration="3963000" />
     </task>
     <task id="LOCAL-00001" summary="Initialisation du projet">
       <created>1601249238729</created>
@@ -260,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601338966271</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Installation des page Twig">
+      <created>1601340505019</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601340505019</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +286,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -296,10 +307,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="642" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601248639543" />
-    <state x="523" y="0" key="CommitChangelistDialog2" timestamp="1601338965810">
+    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601592161810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="523" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601338965810" />
+    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601592161810" />
+    <state x="523" y="0" key="CommitChangelistDialog2" timestamp="1601340504493">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="523" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601340504493" />
     <state x="679" y="228" key="NewPhpClassDialog" timestamp="1601334208663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -308,10 +323,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="764" y="439" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601333692867" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1601338969107">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1601340506313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601338969107" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040@0.0.1920.1040" timestamp="1601340506313" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601592354246">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.0.1920.1040/-1816.-900.1600.860/1920.0.2560.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601592354246" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601339552369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

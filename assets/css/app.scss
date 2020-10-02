@@ -1,16 +1,23 @@
+//Tools
+// ======================
+@import "tools/functions";
+@import "tools/animations";
+@import "tools/mixins";
+@import "tools/reset";
+@import "tools/typography";
 // Variables
 //===================
 :root {
-    --color: #fff;
-    --contrast: #fff;
     --background: #fff;
     --space: 8px;
-    --shadow: #d8e1e8;
-    --border: #d5e3ec;
-    --border-light: #e6eff4;
+}
+body {
+    background:var(--background);
+    font-size: 16px;
 }
 
-body {
-    background: var(--background);
-    font-size: 19px;
-}
+// Modules
+//======================
+@import "modules/nav";
+
+
